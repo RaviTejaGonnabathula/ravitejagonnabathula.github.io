@@ -4,10 +4,12 @@
 ### University of Cincinnati, Carl H. Lindner College of Business, Cincinnati, Ohio
 #### Master of Science, Business Analytics: August 
 - Seeking opportunities to apply data-driven solutions in solving engineering and business challenges while fostering a keen interest in research.
-- Areas of interest: Applied Machine Learning (preferably in Engineering and Business domains)
+- Areas of interest: Applied Machine Learning
+  
 ### Course work
 - Registered: Intelligent Data Analysis, Applied Statistical Methods, Data Visualization, Data Wrangling, Simulation Modelling and Methods.
 - Audited: Deep Learning, Intelligent Systems.
+
           	
 ### GMR Institute of Technology, Razam, India
 #### Bachelor of Technology, Mechanical Engineering: May 2019
