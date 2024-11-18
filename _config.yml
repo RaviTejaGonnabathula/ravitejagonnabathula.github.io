@@ -1,32 +1,59 @@
-title: Ravi Teja Gonnabathula
-description: "Data Science Consultant"
-logo: /assets/img/profile_pic.png
-#show_downloads: true
+# Site settings
+title: "Yann Dubois"
+description: "PhD student in Machine Learning"
+url: "https://yanndubs.github.io"
+baseurl: "" # Leave empty for root directory
 
-theme: hyde
+# Author settings
+author:
+  name: "Yann Dubois"
+  email: "your-email@example.com"
+  twitter: "https://twitter.com/yourusername"
+  linkedin: "https://www.linkedin.com/in/yourusername"
+  github: "https://github.com/yourusername"
+  stackoverflow: "https://stackoverflow.com/users/youruserid"
+  scholar: "https://scholar.google.com/citations?user=youruserid"
 
 # Build settings
 markdown: kramdown
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Navigation
-# List links that should appear in the site sidebar here
-navigation:
-- text: Introduction
-  internal: true
-  url: ./
-- text: Add a new page
-  internal: true
-  url: add-a-new-page
-- text: Configure the Guide
-  internal: true
-  url: configure-the-guide
-- text: GitHub Setup
-  internal: true
-  url: github
-- text: Create a Glossary
-  glossary: true
-- text: Edit this Repo
-  internal: false
-  url: https://github.com/DCgov/guides-template
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Yann Dubois"
+
+# Permalinks
+permalink: /:title/
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Social media links
+social:
+  - name: "Twitter"
+    url: "https://twitter.com/yourusername"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/yourusername"
+  - name: "GitHub"
+    url: "https://github.com/yourusername"
+  - name: "Stack Overflow"
+    url: "https://stackoverflow.com/users/youruserid"
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=youruserid"
+
+# Google Analytics
+google_analytics: "UA-XXXXXXXX-X"
+
+# Disqus
+disqus:
+  shortname: "your-disqus-shortname"
