@@ -5,6 +5,8 @@ logo: /assets/img/profile_pic.png
 
 theme: minimal-mistakes-jekyll
 
+theme: hyde
+
 # Build settings
 markdown: kramdown
 plugins:
