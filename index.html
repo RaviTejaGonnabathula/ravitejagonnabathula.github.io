@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi Teja Gonnabathula | Data Science Consultant & AI Engineer</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #0A1A2F; /* Navy */
+            color: #F8D057;     /* Gold */
+            line-height: 1.6;
+        }
+
+        /* NAVBAR */
+        nav {
+            background: #0D223A;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: #F8D057;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        /* HEADER HERO */
+        .hero {
+            padding: 120px 40px;
+            text-align: center;
+            background: linear-gradient(to bottom, #0A1A2F, #0D223A);
+        }
+
+        .hero h1 {
+            font-size: 43px;
+            margin-bottom: 10px;
+        }
+
+        .hero h2 {
+            font-size: 22px;
+            color: #F4E3B2;
+            font-weight: 400;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 70px 60px;
+        }
+
+        h2.section-title {
+            font-size: 32px;
+            border-left: 6px solid #F8D057;
+            padding-left: 15px;
+            margin-bottom: 35px;
+        }
+
+        /* ABOUT SECTION */
+        .about-text {
+            font-size: 18px;
+            max-width: 900px;
+            margin: auto;
+            color: #F6E7C5;
+        }
+
+        /* SKILLS GRID */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-card {
+            background: #112845;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #F8D057;
+            color: #F4E3B2;
+            font-size: 16px;
+        }
+
+        /* PROJECT CARDS */
+        .project-card {
+            background: #112845;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border-left: 5px solid #F8D057;
+        }
+
+        .project-card h3 {
+            color: #F8D057;
+        }
+
+        /* CONTACT */
+        .contact-box {
+            background: #0D223A;
+            padding: 25px;
+            width: fit-content;
+            margin: auto;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #F4E3B2;
+            margin-top: 40px;
+            background: #0D223A;
+            font-size: 14px;
+        }
+
+        /* LINKS */
+        a.button {
+            display: inline-block;
+            background: #F8D057;
+            color: #0D223A;
+            padding: 12px 22px;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 15px;
+            text-decoration: none;
+        }
+
+        a.button:hover {
+            background: #F4E3B2;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <div style="font-size: 20px; font-weight: bold; color: #F8D057;">Ravi Teja</div>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Ravi Teja Gonnabathula</h1>
+    <h2>Data Science Consultant | Business Analyst | Data Analyst | ML Engineer | LLM Engineer</h2>
+    <a class="button" href="https://www.linkedin.com/in/ravitejagonnabathula" target="_blank">LinkedIn Profile</a>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p class="about-text">
+        I am a multi-disciplinary **Data Science & Analytics Professional** with 5+ years of experience spanning 
+        <b>Business Analysis, Data Analytics, Machine Learning, and LLM Engineering</b>.
+        My expertise lies in building impactful analytics dashboards, end-to-end ML systems, and LLM-driven automation pipelines.
+        <br><br>
+        I combine business understanding, analytical thinking, and engineering skills to deliver scalable solutions for 
+        financial services, SaaS platforms, and enterprise operations.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-grid">
+        <div class="skill-card"><b>Business & Data Analytics</b><br>SQL, Power BI, Tableau, KPI Dashboards, A/B Testing, Forecasting</div>
+        <div class="skill-card"><b>Programming</b><br>Python, R, Pandas, NumPy, FastAPI, PySpark</div>
+        <div class="skill-card"><b>Machine Learning</b><br>Classification, Regression, Time Series, Feature Engineering, Model Deployment</div>
+        <div class="skill-card"><b>LLMs & NLP</b><br>Transformers, LangChain, RAG, LoRA/QLoRA, RLHF/PPO</div>
+        <div class="skill-card"><b>Cloud</b><br>AWS (SageMaker, Lambda), Azure (OpenAI, Web Apps), GCP (BigQuery)</div>
+        <div class="skill-card"><b>Data Engineering</b><br>Snowflake, Databricks, ETL/ELT, Data Pipelines</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2 class="section-title">Featured Projects</h2>
+
+    <div class="project-card">
+        <h3>Credit Risk Assessment using LLMs</h3>
+        <p>Built a multi-model system (QLoRA, LoRA, RLHF) to evaluate credit risk tiers with explainable reasoning and 
+        structured outputs. Designed a Streamlit UI for model comparison with ground-truth evaluation.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>AI Invoice Extraction Pipeline</h3>
+        <p>Developed an end-to-end invoice understanding system using LayoutLMv3, Table Transformer, and EasyOCR, 
+        combined with a Q&A chatbot for interactions with any document.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>AllInBank Poker Analytics App</h3>
+        <p>Created a full-featured Streamlit application to track buy-ins, settlements, analytics, and historical 
+        performance visualizations.</p>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+    <h2 class="section-title">Experience</h2>
+
+    <div class="project-card">
+        <h3>Business Analyst & Data Analyst</h3>
+        <p>Designed dashboards, automated reporting pipelines, and delivered analytical insights used by business 
+        leaders for decision making. Experience with KPIs, retention analysis, forecasting, and SQL-driven automation.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Data Scientist</h3>
+        <p>Built predictive models for credit risk, churn, forecasting, and classification tasks. Implemented feature 
+        engineering workflows and ML systems on cloud platforms.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>ML Engineer & LLM Engineer</h3>
+        <p>Fine-tuned LLMs, built RAG systems, deployed ML APIs, and built AI automation pipelines using FastAPI, 
+        Docker, Azure OpenAI, and HuggingFace models.</p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-box">
+        <p><b>Email:</b> rvtj.gonnabathula@gmail.com</p>
+        <p><b>GitHub:</b> <a style="color:#F8D057;" href="https://github.com/RaviTejaGonnabathula">@RaviTejaGonnabathula</a></p>
+        <p><b>Location:</b> Cincinnati, OH</p>
+    </div>
+</section>
+
+<footer>
+    © 2025 Ravi Teja Gonnabathula — All Rights Reserved
+</footer>
+
+</body>
+</html>
